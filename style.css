@@ -4,6 +4,8 @@
   --intel-slate: #475569;
   --intel-light: #f4f7fb;
   --card-shadow: 0 18px 40px rgba(15, 23, 42, 0.15);
+  --surface: #ffffff;
+  --surface-alt: #eef6ff;
 }
 
 * {
@@ -16,6 +18,31 @@ body {
   color: var(--intel-dark);
   background: linear-gradient(135deg, #f4f7fb 0%, #e8f2ff 100%);
   line-height: 1.5;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #0f172a;
+  color: #ffffff;
+  padding: 0.75rem 1rem;
+  z-index: 9999;
+}
+
+.skip-link:focus {
+  left: 1rem;
+}
+
+body.rtl-page {
+  text-align: right;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #0f172a;
+  outline-offset: 3px;
 }
 
 /* Hero section */
@@ -52,7 +79,8 @@ body {
   z-index: 1;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  text-align: center;
   gap: 1rem;
 }
 
@@ -230,6 +258,80 @@ main {
   transform: translateY(0);
   padding-top: 0.7rem;
   margin-top: 0.2rem;
+}
+
+.insights-section {
+  background: linear-gradient(180deg, #f7faff 0%, #eef6ff 100%);
+}
+
+.info-card {
+  background: var(--surface);
+  border: 1px solid #dfeeff;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+}
+
+.icon-bubble {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--surface-alt);
+  color: var(--intel-blue);
+  font-size: 1.4rem;
+}
+
+.learn-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--intel-blue);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.learn-more:hover,
+.learn-more:focus-visible {
+  color: #00579d;
+  text-decoration: underline;
+}
+
+.accordion-section .accordion-button {
+  background: var(--surface);
+  color: var(--intel-dark);
+  font-weight: 700;
+}
+
+.accordion-section .accordion-button:not(.collapsed) {
+  background: var(--surface-alt);
+  color: var(--intel-blue);
+}
+
+.newsletter-form {
+  background: #f8fbff;
+  border: 1px solid #d7e8ff;
+}
+
+.newsletter-form .text-muted,
+.newsletter-form .form-text {
+  color: #0f172a !important;
+}
+
+.site-footer {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.site-footer a {
+  color: #bfdbfe;
+  text-decoration: none;
+}
+
+.site-footer a:hover,
+.site-footer a:focus-visible {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 .footer-note {
