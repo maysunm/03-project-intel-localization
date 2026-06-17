@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Illustration of Intel founders and early company history">
+  <rect width="800" height="500" rx="36" fill="#071d49"/>
+  <rect x="70" y="90" width="660" height="320" rx="24" fill="#0f3f7a"/>
+  <rect x="130" y="150" width="220" height="180" rx="22" fill="#ffffff"/>
+  <rect x="420" y="150" width="220" height="180" rx="22" fill="#e8f2ff"/>
+  <circle cx="240" cy="240" r="48" fill="#0071c5"/>
+  <circle cx="530" cy="240" r="48" fill="#5bc0f8"/>
+  <rect x="205" y="310" width="70" height="18" rx="9" fill="#0f172a"/>
+  <rect x="495" y="310" width="70" height="18" rx="9" fill="#0f172a"/>
+  <path d="M300 225h90" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+  <path d="M150 390h500" stroke="#6dd3ff" stroke-width="8" stroke-linecap="round"/>
+  <text x="160" y="120" fill="#ffffff" font-family="Arial, sans-serif" font-size="30" font-weight="700">Intel Founded</text>
+  <text x="140" y="430" fill="#d9f3ff" font-family="Arial, sans-serif" font-size="24">Founders shaping tomorrow</text>
+</svg>

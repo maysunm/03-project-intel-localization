@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Illustration of net-zero climate goals">
+  <rect width="800" height="500" rx="36" fill="#0b2740"/>
+  <rect x="110" y="110" width="580" height="300" rx="28" fill="#1f5f8b"/>
+  <circle cx="400" cy="250" r="120" fill="#f8fbff"/>
+  <path d="M400 150v200" stroke="#0071c5" stroke-width="14" stroke-linecap="round"/>
+  <path d="M300 250h200" stroke="#0071c5" stroke-width="14" stroke-linecap="round"/>
+  <path d="M325 195l75 80 95-120" stroke="#6dd3ff" stroke-width="16" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="175" y="120" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="700">Net-Zero by 2040</text>
+  <text x="225" y="430" fill="#d9f3ff" font-family="Arial, sans-serif" font-size="24">Climate action with long-term impact</text>
+</svg>

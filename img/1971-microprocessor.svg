@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Illustration of the first microprocessor chip">
+  <rect width="800" height="500" rx="36" fill="#102a43"/>
+  <rect x="90" y="110" width="620" height="280" rx="28" fill="#183d5d"/>
+  <rect x="170" y="150" width="460" height="180" rx="24" fill="#f8fbff"/>
+  <rect x="210" y="185" width="380" height="110" rx="16" fill="#0071c5"/>
+  <rect x="235" y="205" width="80" height="70" rx="10" fill="#ffffff"/>
+  <rect x="335" y="205" width="80" height="70" rx="10" fill="#ffffff"/>
+  <rect x="435" y="205" width="80" height="70" rx="10" fill="#ffffff"/>
+  <rect x="535" y="205" width="40" height="70" rx="10" fill="#ffffff"/>
+  <path d="M190 380c80-40 140-45 220-20 80 25 140 25 220 0" stroke="#6dd3ff" stroke-width="8" fill="none"/>
+  <text x="170" y="120" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="700">First Microprocessor</text>
+  <text x="200" y="430" fill="#d9f3ff" font-family="Arial, sans-serif" font-size="24">Small chip, huge impact</text>
+</svg>

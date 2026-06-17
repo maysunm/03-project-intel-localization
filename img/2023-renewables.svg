@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Illustration of renewable electricity and cleaner energy">
+  <rect width="800" height="500" rx="36" fill="#0c2740"/>
+  <rect x="100" y="110" width="600" height="300" rx="28" fill="#1f5f8b"/>
+  <path d="M400 160l60 120h-40l40 90-80-100h40z" fill="#6dd3ff"/>
+  <path d="M260 320c40-70 80-120 140-120 60 0 100 50 140 120" stroke="#f8fbff" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <rect x="220" y="330" width="360" height="18" rx="9" fill="#ffffff"/>
+  <text x="175" y="120" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="700">Renewable Electricity</text>
+  <text x="220" y="430" fill="#d9f3ff" font-family="Arial, sans-serif" font-size="24">Powering progress with clean energy</text>
+</svg>
